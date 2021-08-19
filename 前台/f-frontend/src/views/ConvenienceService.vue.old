@@ -1,0 +1,102 @@
+<template>
+    <div class="service">
+      <div class="test">
+          <vue-particles color="#aab1b7"
+                  :particleOpacity="0.8"
+                  :particlesNumber="80"
+                  shapeType="circle"
+                  :particleSize="4"
+                  linesColor="#3f5060"
+                  :linesWidth="0.8"
+                  :lineLinked="true"
+                  :lineOpacity="0.8"
+                  :linesDistance="150"
+                  :moveSpeed="3"
+                  :hoverEffect="true"
+                  hoverMode="grab"
+                  :clickEffect="true"
+                  clickMode="push">
+                
+
+                </vue-particles>
+      </div>
+     
+      
+      
+          <el-card id="block">
+        <el-collapse v-model="activeNames" @change="handleChange">
+            <el-collapse-item title="寄存物品 Deposit items" name="1" >
+              <img src="../assets/service_1.jpg"                    />
+                <div> 你若要寄存物品，你只需要将需寄存的物品交给服务站工作人员，工作人员将给你寄存卡，并请你妥善保管寄存卡，并注意贵重物品不得寄存。</div>
+            </el-collapse-item>
+            <el-collapse-item title="伞的借用 Umbrella loan" name="2">
+                <img src="../assets/service_2.jpg"                    />
+                <div>您若要借用伞，只需交付20元（每把）人民币押金，工作人员会为您提供借伞卡和您所需的伞。请您在当日内，将借伞卡和您借用的阳、雨伞交还到借伞处，工作人员将退还您所交押金。</div>
+            </el-collapse-item>
+            <el-collapse-item title="儿童车、手推车借用 Children's vehicles and trolleys for loan" name="3">
+                <img src="../assets/service_3.jpg"                    />
+                <div>您若需要借用儿童推车，只需交费200元/部，残疾人手推车只需交费500元/部人民币押金，工作人员会为您提供手推车。请您在园内使用，当日将手推车退还到借车处，工作人员将退还您所交押金。</div>
+            </el-collapse-item>
+                <el-collapse-item title="免费为游客供应开水和提供微波炉和废物袋 Free boiled water and microwave ovens and waste bags for tourists" name="4">
+                  <img src="../assets/service_4.jpg"                    />
+                    <div> 您只需向服务站工作人员说明使用原因，便可使用。请您按使用程序进行操作，废物袋只要你需要可直接向工作人员索要。</div>
+            </el-collapse-item>
+    
+                <el-collapse-item title="各种药物 Various drugs" name="5">
+                  <img src="../assets/service_5.jpg"                    />
+                    <div>免费为游客提供创口消毒液、创可贴、解暑药、速效救心丸等常备药物。</div>
+                </el-collapse-item>
+
+                <el-collapse-item title="留言簿 Guestbook" name="6">
+                    <img src="../assets/service_6.jpg"                    />
+                    <div>欢迎游览ZMS动物园的游客对我园提出宝贵的意见和建议，我们将会认真接受和采纳你的意见和建议。我们将以更高的标准，创造更优美的环境，为游客朋友提供优质的服务。 </div>
+                </el-collapse-item>
+
+          </el-collapse>
+      </el-card>
+            
+    </div>
+</template>
+<script>
+export default {
+    data() {
+      return {
+        activeNames: [''],
+  
+      };
+    },
+    methods: {
+      handleChange(val) {
+        console.log(val);
+      }
+    }
+}
+</script>
+<style scoped>
+    #block{
+      margin: 0 auto;
+      width: 1000px;
+    }
+    .el-collapse-item__header:link{
+      background-color: white;
+
+    }
+    .el-collapse-item__header:visited{
+      background-color:white;
+
+    }
+    .el-collapse-item__header:hover{
+      background-color: pink;
+
+    }
+    .test{
+      position: fixed;
+      top:0px;
+      bottom:0px;
+      left:0px;
+      right:0px;
+      z-index:-1;
+      background-image: linear-gradient(#f6faeb,#c7effd);
+      
+    }
+</style>
