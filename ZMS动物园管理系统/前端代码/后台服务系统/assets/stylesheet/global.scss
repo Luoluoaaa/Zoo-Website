@@ -1,0 +1,237 @@
+.zms-white{
+    color:white;
+}
+.zms-scrollbar::-webkit-scrollbar {
+    width: 5px;     
+    height: 1px;
+}
+.zms-cardcolor-light{
+    //background:-webkit-repeating-linear-gradient( 135deg, rgba(245, 245, 245, 0.98), rgba(245, 245, 245, 0.98) 45px, rgba(255, 255, 255, 0.9) 45px, rgba(255, 255, 255, 0.9) 90px ) !important;
+}
+.zms-cardcolor-dark{
+    background-color: #333333 !important;
+    //background:-webkit-repeating-linear-gradient( 135deg, #26292bfa, #26292bfa 45px, #373c3de6 45px, #373c3de6 90px ) !important;
+}
+.zms-text-dark{
+    color:#dddddd;
+}
+.zms-transparent-bg{
+    background: transparent;
+}
+.zms-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #979ca3;
+}
+.zms-scrollbar::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        background: #ededed;
+}
+.zms-scrollbar{
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 5px;     
+    height: 1px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #979ca3;
+}
+::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        background: #ededed;
+}
+.zms-navigator-body{
+    margin-left:10px;
+    margin-right:10px;
+}
+.zms-bold{
+    font-weight: bold;
+}
+.zms-strip-bg-s{
+    background:-webkit-repeating-linear-gradient( 135deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.07) 45px, rgba(255, 255, 255, 0.05) 45px, rgba(255, 255, 255, 0.05) 90px ) !important;
+}
+.zms-strip-bg{
+    background:-webkit-repeating-linear-gradient( 135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 45px, rgba(255, 255, 255, 0.1) 45px, rgba(255, 255, 255, 0.1) 90px ) !important;
+}
+.zms-strip-bg-slim{
+    background:-webkit-repeating-linear-gradient( 135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) 20px, rgba(255, 255, 255, 0.1) 20px, rgba(255, 255, 255, 0.1) 40px ) !important;
+}
+.zms-nav-padding{
+    padding-left:50px;
+}
+.zms-halfwidth{
+    width:40%;
+    margin-right:4%;
+    margin-left:4%;
+    margin-top:10px;
+}
+.zms-fullwidth{
+    width:40%;
+}
+.zms-halfwidth2{
+    width:30%;
+}
+.zms-halfwidth3{
+    width:20%;
+}
+.zms-inlb{
+    display: inline-block;
+}
+.zms-anim-shorter-delay {
+    --animate-duration: 0.7s;
+}
+.zms-background-wg{
+    background-color: #d0d0d0;
+    background-image: linear-gradient(135deg, #ffffff, #e0e0e0); 
+}
+.zms-background-wg-dark{
+    background-image: linear-gradient(135deg, #2b2a2a, #4b4a4a); 
+}
+.zms-background-nm-dark{
+    background-image: linear-gradient(135deg, #2b2a2a, #4b4a4a); 
+}
+.zms-wider-letterspacing{
+    letter-spacing: 1px;
+}
+.zms-vlist-group{
+    margin-top:5px !important;
+}
+.zms-nav-font{
+    font-size:15px !important;
+}
+.zms-pointer{
+    cursor:pointer;
+}
+.zms-primary-color{
+    color:#1867C0
+}
+.zms-background-wg{
+    background-color: #ffffffff !important;
+}
+.zms-view-public{
+    margin-top:10px;
+}
+.zms-view-title{
+    font-size:23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.zms-poptip-body{
+    margin-top:10px;
+    display:block;
+    font-size:16px;
+}
+.zms-poptip-body2{
+    display:block;
+    font-size:16px;
+}
+.zms-fixedimp{
+    position:sticky !important;
+}
+.zms-anisel-small{
+    font-size:7px;
+    opacity: 0.5;
+}
+.zms-anisel-bold{
+    font-weight: bold;
+}
+.zms-anisel-av{
+    font-size:16px;
+}
+.zms-bold-font{
+    font-weight: bold;
+}
+.zms-force-nowrap-e{
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.zms-query-titlex{
+    font-weight: bold;
+    letter-spacing: 1px;
+    position:relative;
+    top:3px;
+    //color:black;
+    font-size:16px;
+}
+.zms-reject-mouse{
+    pointer-events: none;
+}
+.zms-bender{
+    font-family: benderregular;
+}
+.zms-vertical-col-height{
+    height:75px !important;
+}
+.zms-fontlarge{
+    font-size:25px;
+    font-weight: bold;
+}
+.zms-fontlargex{
+    font-size:20px;
+    font-weight: bold;
+}
+.zms-swal2{
+    margin-bottom: 25px;
+    margin-top:-4px;
+}
+/* Overriding Vue-particle Button Styles*/
+.particles , .particles-wrapper{
+    width:100%;
+    height:100%;
+}
+.particles-button , .btn-cls{
+    height:100%;
+}
+.vue-particle-effect-button .particles-button {
+    background:  linear-gradient(to right, rgb(0, 4, 40), rgb(0, 78, 146));
+    background-color: rgb(0, 78, 146);
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: 0;
+  }
+/* Overriding Vuetify Styles*/
+.v-btn{
+    font-family: 'PTSans','HanSansX' !important;
+    font-weight: bold;
+}
+.v-btn--text{
+    font-weight: bold;
+}
+/* ZMS Penging Box */
+.zms-pending-title{
+    font-weight: bold !important;
+}
+/* ZMS Loading Page */
+.slideshow_append{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    z-index: 99999;
+    font-size:30px;
+    opacity: 0.8;
+    font-family: Quicksand !important;
+}
+.slideshow{
+    /*I am !important*/
+    font-family: Jost !important;
+}
+/* Router Transition */
+.slide-fade-enter-active {
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.slide-fade-leave-active {
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.slide-fade-enter, .slide-fade-leave-to
+    /* .slide-fade-leave-active for below version 2.1.8 */ {
+    transform: translateY(1.5vh);
+    opacity: 0;
+}
